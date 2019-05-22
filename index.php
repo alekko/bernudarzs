@@ -1,2 +1,1 @@
-<php header('Location: /index.html'); ?>
-<php echo "Hello, World!";?>
+<php header('Location: /index.html'); die(var_dump("test"));?>
