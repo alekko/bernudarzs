@@ -1,1 +1,4 @@
-<php header('Location: /index.html'); die(var_dump("test"));?>
+<?php
+header("Location: /index.html");
+exit;
+?>
