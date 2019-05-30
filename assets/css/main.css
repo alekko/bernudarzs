@@ -2585,7 +2585,7 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		width: 80vw;
+		width: 90vw;
 	}
 
 	table {
@@ -2648,9 +2648,9 @@
 		border-color: rgba(144, 144, 144, 0.25);
 	}
 
-		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(144, 144, 144, 0.075);
-		}
+	table tbody tr:nth-child(2n + 1) {
+		background-color: rgba(144, 144, 144, 0.075);
+	}
 
 	table th {
 		color: #555;
@@ -3399,6 +3399,9 @@
 				padding: 3rem 0 1rem 0 ;
 			}
 
+			td:nth-child(2) {
+				width: 45%;
+			}
 		}
 
 /* Flexgrid */
