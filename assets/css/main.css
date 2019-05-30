@@ -3363,7 +3363,7 @@
 				transition-delay: 1.25s;
 				content: '';
 				display: block;
-				background-color: rgba(0, 0, 0, 0.4);
+				background-color: rgba(0, 0, 0, 0.5);
 				height: 100%;
 				left: 0;
 				opacity: 0.75;
@@ -4409,6 +4409,7 @@
     position:relative;
     height:0;
 }
+
 .map-responsive iframe{
     left:0;
     top:0;
@@ -4429,4 +4430,10 @@
 
 .contact-us-paragraph-link {
 	color: inherit !important;
+	word-break: break-all;
+}
+
+.banner-text {
+	font-weight: bold;
+   text-shadow: white 1px 1px 1px;
 }
