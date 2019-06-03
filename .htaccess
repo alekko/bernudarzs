@@ -1,10 +1,7 @@
 RewriteEngine On
-
+# enable symbolic links
+Options +FollowSymLinks
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [L]
-
-<Directory />
-    Options FollowSymLinks
-    AllowOverride Indexes
-</Directory>
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+) index.php [L]
