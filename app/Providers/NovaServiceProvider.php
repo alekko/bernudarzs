@@ -42,9 +42,8 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     protected function gate()
     {
         Gate::define('viewNova', function ($user) {
-            if ($user->hasPermission('Nova')) {
-                return true;
-            }
+
+            return true;
 
             // If user doesn't have access to nova, log them out.
             // This prevents them for being stuck in 403 page.
