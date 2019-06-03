@@ -14,6 +14,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         \Spatie\NovaTranslatable\Translatable::defaultLocales(['lv', 'en']);
+        Schema::defaultStringLength(191);
     }
 
     /**
