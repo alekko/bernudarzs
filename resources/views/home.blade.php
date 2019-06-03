@@ -5,7 +5,7 @@
 
       @foreach($gallery as $key => $gallery_item)
         <article>
-          <img src="/storage/{{$gallery_item['picture']}}" alt="" />
+          <img src="/public/{{$gallery_item['picture']}}" alt="" />
           <div class="inner">
             <header>
           <!--  <div class="logo"><img src="logotips.png"  style="width:300px;">  <p>Mīlulis</p>  <!-- pirmais slaids -->
@@ -22,7 +22,7 @@
         <div>
           <div class="box">
             <div class="image fit">
-              <img src="/storage/pic002.jpg" alt="" />
+              <img src="/public/pic002.jpg" alt="" />
             </div>
             <div class="content">
               <header class="align-center">
@@ -39,7 +39,7 @@
         <div>
           <div class="box">
             <div class="image fit">
-              <img src="/storage/pic003.jpg" alt="" />
+              <img src="/public/pic003.jpg" alt="" />
             </div>
             <div class="content">
               <header class="align-center">
