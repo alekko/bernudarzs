@@ -2,7 +2,7 @@
 <header id="header" class="{{ Route::currentRouteName() == 'home' ? 'alt' : '' }}">
   <a href="{{route('home')}}">
     <div class="logo">
-      <img src="/public/logotips.png" alt="logo" style="width:60px; margin-top: 10px;">
+      <img src="/logotips.png" alt="logo" style="width:60px; margin-top: 10px;">
     </a></div>
   <a href="#menu">Izvelne</a>
 </header>
