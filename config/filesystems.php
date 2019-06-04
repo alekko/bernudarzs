@@ -51,7 +51,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => 'public',
-            'url' => env('APP_URL').'/public',
+            'url' => 'public',
         ],
 
         's3' => [
