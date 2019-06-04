@@ -8,8 +8,8 @@
         <meta name="keywords" content="">
         <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}">
-        <script src="{{ URL::asset('js/app.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}">
+        <script src="{{ secure_asset('js/app.js') }}"></script>
     </head>
     <body class="{{ Route::currentRouteName() != 'home' ? 'subpage' : '' }}">
         @include('layouts.partials.header')
