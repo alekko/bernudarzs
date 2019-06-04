@@ -4,10 +4,10 @@
     <div class="box1">
       <div class="footer-nav">
         <ul class="footer-bar">
-          <li class="bar-btn"><a class="active" href="{{secure_url(route('home'))}}">Sākums</a></li>
-          <li class="bar-btn"><a href="{{secure_url(route('about'))}}">Par Mums</a></li>
-          <li class="bar-btn"><a href="{{secure_url(route('timetable'))}}">Laika Grafiks</a></li>
-          <li class="bar-btn"><a href="{{secure_url(route('contact'))}}">Kontakti</a></li>
+          <li class="bar-btn"><a class="active" href="{{secure_asset(route('home'))}}">Sākums</a></li>
+          <li class="bar-btn"><a href="{{secure_asset(route('about'))}}">Par Mums</a></li>
+          <li class="bar-btn"><a href="{{secure_asset(route('timetable'))}}">Laika Grafiks</a></li>
+          <li class="bar-btn"><a href="{{secure_asset(route('contact'))}}">Kontakti</a></li>
           <li class="bar-btn"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
         </ul>
       </div>
