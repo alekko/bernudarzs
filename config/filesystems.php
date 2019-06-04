@@ -44,14 +44,17 @@ return [
     'disks' => [
 
         'local' => [
-            'driver' => 'local',
-            'root' => 'public',
+           'driver' => 'local',
+           'root'   => public_path(),
+           'url' => env('APP_URL'),
+           'visibility' => 'public',
         ],
 
         'public' => [
-            'driver' => 'local',
-            'root' => 'public',
-            'url' => 'public',
+           'driver' => 'local',
+           'root'   => public_path(),
+           'url' => env('APP_URL'),
+           'visibility' => 'public',
         ],
 
         's3' => [
