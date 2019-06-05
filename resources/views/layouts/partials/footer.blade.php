@@ -19,9 +19,9 @@
 </footer>
 
 <!-- Scripts -->
-<script src="{{ URL::asset('js/app.js') }}"></script>
-<script src="{{ URL::asset('js/jquery.min.js') }}"></script>
-<script src="{{ URL::asset('js/scrollex.min.js') }}"></script>
-<script src="{{ URL::asset('js/skel.min.js') }}"></script>
-<script src="{{ URL::asset('js/util.js') }}"></script>
-<script src="{{ URL::asset('js/main.js') }}"></script>
+<script src="{{ secure_asset('js/app.js') }}"></script>
+<script src="{{ secure_asset('js/jquery.min.js') }}"></script>
+<script src="{{ secure_asset('js/scrollex.min.js') }}"></script>
+<script src="{{ secure_asset('js/skel.min.js') }}"></script>
+<script src="{{ secure_asset('js/util.js') }}"></script>
+<script src="{{ secure_asset('js/main.js') }}"></script>
