@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'APP_URL=https://bernudarzs.herokuapp.com'),
+    'url' => env('APP_URL', 'https://bernudarzs.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------
