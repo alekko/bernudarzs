@@ -1,21 +1,21 @@
 @extends('layouts.main')
 @section('content')
-  <!-- One -->
-  <section id="One" class="wrapper style3">
-    <div class="inner">
-      <header class="align-center">
-        <p>Mīlulis</p>
-        <h2 class="banner-text">Laika Grafiks</h2>
-      </header>
-    </div>
-  </section>
+@include('layouts.partials.page_header', ['content' => 'Laika grafiks'])
   <!-- Main -->
   <div id="main" class="container">
     <!-- Elements -->
       <div style="width: 100%;">
         <div>
           <!-- Table -->
-            <h3>Mūsu laika grafiks</h3>
+            <div class="inner">
+              <div class="box">
+                <div class="content">
+                  <header class="align-center">
+                    <p>Laika grafiks</p>
+                  </header>
+                </div>
+              </div>
+            </div>
             <div class="table-wrapper">
               <table class="alt">
                 <thead>

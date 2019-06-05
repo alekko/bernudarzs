@@ -1,12 +1,10 @@
 <!-- Header -->
 <header id="header" class="{{ Route::currentRouteName() == 'home' ? 'alt' : '' }}">
-  <a href="{{route('home')}}">
-    <div class="logo">
-      <img src="/logotips.png" alt="logo" style="width:60px; margin-top: 10px;">
-    </a></div>
+  <a class="logo" href="{{route('home')}}">
+    Pirmsskolas izglītības iestāde "Mīlulis"
+  </a>
   <a href="#menu">Izvelne</a>
 </header>
-
 <!-- Nav -->
 <nav id="menu">
   <ul class="links">

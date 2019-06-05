@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 /*
   Hielo by TEMPLATED
@@ -162,6 +162,9 @@
       width: 90%;
     }
 
+    .contact-block {
+      flex-direction: column-reverse;
+    }
   }
 
   @media screen and (max-width: 736px) {
@@ -188,6 +191,17 @@
       width: 90% !important;
     }
 
+    #header > .logo {
+      font-size: 16px !important;
+    }
+
+    .contact-us-paragraph {
+      font-size: 16px !important;
+    }
+
+    .contact-block {
+      flex-direction: column-reverse;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -214,6 +228,9 @@
       width: 90% !important;
     }
 
+    .contact-block {
+      flex-direction: column-reverse;
+    }
   }
 
 /* Grid */
@@ -3711,7 +3728,7 @@
   }
 
   #header {
-    background: rgba(0, 0, 0, 0.975);
+    background: #8a487e;
     color: #a6a6a6;
     cursor: default;
     height: 80px;
@@ -3734,22 +3751,6 @@
       position: absolute;
       top: 0;
     }
-
-      #header > .logo a {
-        font-size: 1.25em;
-        color: #B16684;
-        text-decoration: none;
-      }
-
-        #header > .logo a:hover {
-          color: rgba(255, 255, 255, 0.65);
-        }
-
-      #header > .logo span {
-        font-weight: 400;
-        font-size: .8em;
-        color: rgba(255, 255, 255, 0.65);
-      }
 
     #header > a {
       -moz-transition: color 0.2s ease-in-out;
@@ -3787,7 +3788,6 @@
         }
 
       #header > a + a[href="#menu"]:last-child {
-        border-left: solid 1px rgba(0, 0, 0, 0.15);
         padding-left: 1.25em;
         margin-left: 0.5em;
       }
@@ -3869,6 +3869,16 @@
 
   }
 
+  #header > .logo {
+    font-size: 1.25em;
+    color: #B16684;
+    text-decoration: none;
+  }
+
+  #header > .logo:hover {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
 /* Menu */
 
   #menu {
@@ -3881,7 +3891,7 @@
     -ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
     transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
     -webkit-overflow-scrolling: touch;
-    background: rgba(0, 0, 0, 0.95);
+    background: #8a487e;
     box-shadow: none;
     color: #000;
     height: 100%;
@@ -4432,10 +4442,17 @@
 
 .contact-us-paragraph-link {
   color: inherit !important;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .banner-text {
   font-weight: bold;
-   text-shadow: white 1px 1px 1px;
+}
+
+.main-logo {
+  width: 60px;
+}
+
+.contact-block {
+  display: flex;
 }
