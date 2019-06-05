@@ -15,5 +15,3 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/contact', 'ContactController@index')->name('contact');
 Route::get('/timetable', 'TimeTableController@index')->name('timetable');
-
-Nova::routes();
