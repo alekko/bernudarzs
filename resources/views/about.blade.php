@@ -1,13 +1,13 @@
 @extends('layouts.main')
 @section('content')
-  @include('layouts.partials.page_header', ['content' => 'Par mums'])
+  @include('layouts.partials.page_header', ['content' => ''])
   <!-- Two -->
   <section id="two" class="wrapper style2">
     <div class="inner">
       <div class="box">
         <div class="content">
           <header class="align-center">
-           {{-- <p>Par mums</p> --}}
+            <h2>Par mums</h2>
           </header>
           <p class="content-paragraph">Iestādē ir profesionāls pedagoģiskais personāls. Patstāvīgi tiek paaugstināta profesionālā kompetence - pedagoģijā un psiholoģijā. Kompetenču pieeja balstīta uz izglītības satura pilnveidi rotaļnodarbību metodikā un plānošanā, audzināšanā un bērnu tisību aizsardzības jautājumos, kur iestādes personāls un vadība regulāri piedalās tālākizglītības kursos, semināros un konferencēs.  </p>
           <p class="content-paragraph">Privātā pirmsskolas izglītības iestāde "Mīlulis" ir privātais dārziņš, kurā uzņem audzēkņus no pirmajiem patstāvīgajiem solīšiem līdz pat skolas vecumam trīs dažāda vecuma grupiņās.</p>
@@ -15,7 +15,7 @@
       </div>
     </div>
   </section>
-  <section id="two" class="wrapper style3">
+  <section id="two" class="wrapper style3" style="background-image: url('{{$background}}')">
     <div class="inner">
       <header class="align-center">
         <p>Vēlies uzzināt vairāk?</p> <!-- Strādā, ja ar pelīti brauc lejā-->
@@ -37,7 +37,7 @@
       </div>
     </div>
   </section>
-  <section id="two" class="wrapper style3">
+  <section id="two" class="wrapper style3" style="background-image: url('{{$background}}')">
     <div class="inner">
       <header class="align-center">
         <p>Vēlies uzzināt vairāk?</p> <!-- Strādā, ja ar pelīti brauc lejā-->

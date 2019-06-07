@@ -1,11 +1,14 @@
 @extends('layouts.main')
 @section('content')
-@include('layouts.partials.page_header', ['content' => 'Kontakti'])
+@include('layouts.partials.page_header', ['content' => ''])
   <!-- Two -->
   <section id="two" class="wrapper style2">
     <div class="inner">
       <div class="box">
         <div class="content">
+            <header class="align-center">
+              <h2>Kontakti</h2>
+            </header>
           <div class="row contact-block">
             <div class="col-xs-12 col-lg-6">
               <div class="contact-us-wrapper">

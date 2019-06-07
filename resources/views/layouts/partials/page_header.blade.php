@@ -1,5 +1,5 @@
 <!-- One -->
-<section id="One" class="wrapper style3">
+<section id="One" class="wrapper style3" style="background-image: url('{{$background}}')">
   <div class="inner">
     <header class="align-center">
       <p>

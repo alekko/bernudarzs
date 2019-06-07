@@ -3116,7 +3116,6 @@
     .wrapper.style3 {
       background-color: #000;
       color: #bfbfbf;
-      background-image: url('/background.jpg');
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -3871,7 +3870,7 @@
 
   #header > .logo {
     font-size: 1.25em;
-    color: #B16684;
+    color: white;
     text-decoration: none;
   }
 
@@ -4199,7 +4198,7 @@
           right: 0;
           bottom: 0;
           left: 0;
-          width: 50%;
+          width: 100%;
           height: 1px;
           background-color: rgba(255, 255, 255, 0.65);
         }
@@ -4436,7 +4435,7 @@
 }
 
 .contact-us-paragraph {
-  font-size: 18px;
+  font-size: 19px;
   color: #B16684 !important;
 }
 
@@ -4450,7 +4449,7 @@
 }
 
 .main-logo {
-  width: 60px;
+  width: 80px;
 }
 
 .contact-block {

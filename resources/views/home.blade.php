@@ -7,9 +7,10 @@
         <article>
           <img src="/{{$gallery_item['picture']}}" alt="" />
           <div class="inner">
-            <header>
-          <!--  <div class="logo"><img src="logotips.png"  style="width:300px;">  <p>Mīlulis</p>  <!-- pirmais slaids -->
-            <!--  <h2>Gaišas un plašas telpas</h2> <!-- pirmais slaids -->
+             <header class="align-center">
+              <p>
+                <img src="/logotips.png" alt="logo" class="main-logo" style="display: block !important;">
+              </p>
             </header>
           </div>
         </article>
@@ -58,7 +59,7 @@
     </div>
   </section>
   <!-- Two -->
-  <section id="two" class="wrapper style3">
+  <section id="two" class="wrapper style3" style="background-image: url('{{$background}}')">
     <div class="inner">
       <header class="align-center">
         <h2 class="banner-text">Kontaktējies ar mums, ja ir kādas neskaidrības!</h2> <!-- Strādā, ja ar pelīti brauc lejā-->
