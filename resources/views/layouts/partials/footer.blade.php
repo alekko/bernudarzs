@@ -8,7 +8,7 @@
           <li class="bar-btn"><a href="{{route('about')}}">Par Mums</a></li>
           <li class="bar-btn"><a href="{{route('timetable')}}">Laika Grafiks</a></li>
           <li class="bar-btn"><a href="{{route('contact')}}">Kontakti</a></li>
-          <li class="bar-btn"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+          <li class="bar-btn"><a href="https://www.facebook.com/ppiimilulis" target="_blank">Facebook</a></li>
         </ul>
       </div>
     </div>
