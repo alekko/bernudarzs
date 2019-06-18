@@ -12,6 +12,6 @@
     <li><a href="{{route('about')}}">Par Mums</a></li> <!-- 2 -->
     <li><a href="{{route('timetable')}}">Laika grafiks</a></li> <!-- 3 -->
     <li><a href="{{route('contact')}}">Kontakti</a></li> <!-- 4 -->
-    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://www.facebook.com/ppiimilulis" target="_blank">Facebook</a></li>
   </ul>
 </nav>
