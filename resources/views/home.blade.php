@@ -8,7 +8,7 @@
           <img src="/{{$gallery_item['picture']}}" alt="" />
           <div class="inner">
              <header class="align-center">
-                <img src="/logotips.png" alt="logo" class="main-logo-home" style="display: block !important;">
+                <img src="/logo.png" alt="logo" class="main-logo-home" style="display: block !important;">
             </header>
           </div>
         </article>
